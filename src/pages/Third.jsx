@@ -31,7 +31,7 @@ function Third() {
             <h1 className=" font-bold text-3xl mt-6 text-center">
               Learn at <br /> Your own pace
             </h1>
-            <img className="mt-7" src="/src/images/OBJECTS3.png" alt="" />
+            <img className="mt-7" src="/src/assets/OBJECTS3.png" alt="" />
           </div>
         </div>
       </div>

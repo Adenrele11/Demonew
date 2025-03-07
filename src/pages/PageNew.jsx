@@ -29,7 +29,7 @@ function PageNew() {
             <h1 className="text-left font-bold text-3xl mt-3">
               Find global <br /> learning groups
             </h1>
-            <img className="mt-7 " src="/src/images/OBJECTS2.png" alt="" />
+            <img className="mt-7 " src="/src/assets/OBJECTS2.png" alt="" />
           </div>
         </div>
       </div>

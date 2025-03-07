@@ -33,7 +33,7 @@ const Messages = () => {
               Engage with <br />
               interactive content
             </h1>
-            <img className="mt-5" src="/src/images/OBJECTS.png" alt="" />
+            <img className="mt-5" src="/src/assets/OBJECTS.png" alt="" />
           </div>
         </div>
       </div>

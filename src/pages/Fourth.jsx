@@ -15,7 +15,7 @@ function Fourth() {
             <h1 className="text-center font-bold text-3xl mt-3 ">
               Collaborate <br /> With Peers
             </h1>
-            <img className="mt-7" src="/src/images/OBJECTS4.png" alt="" />
+            <img className="mt-7" src="/src/assets/OBJECTS4.png" alt="" />
           </div>
         </div>
         <Link
