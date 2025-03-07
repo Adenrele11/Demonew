@@ -2,9 +2,9 @@ import React from "react";
 
 function Headerc() {
   return (
-    <div>
+    <div className="flex">
       <div
-        className="flex items-center gap-5 mx-3 py-5
+        className="flex items-center gap-5 py-5 mx-auto
       "
       >
         <svg
