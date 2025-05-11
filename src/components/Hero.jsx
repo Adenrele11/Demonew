@@ -17,7 +17,7 @@ function Hero() {
         ALL YOU NEED IN <span>ONE</span> <span>PLACE</span>
       </h1>
 
-      <div className=" flex justify-center items-center h-[79dvh] bg-gray-100 dark:bg-neutral-900 border-0">
+      <div className=" flex justify-center items-center h-[80dvh] bg-gray-100 dark:bg-neutral-900 border-0">
         <div
           className={`border-2 border-white relative flex justify-center items-center w-80 h-80  text-white bg-gradient-to-b from-green-600 to-neutral-800 rounded-full transform transition-transform duration-500 ${
             isOpen ? "scale-100 rotate-0" : "scale-0 -rotate-180"
