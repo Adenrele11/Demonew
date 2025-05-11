@@ -3,7 +3,7 @@ import Hero from "./Hero";
 function Header() {
   return (
     <>
-      <header className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white p-4 flex justify-between items-center font-mono border-b-2 border-black dark:border-white">
+      <header className=" bg-gradient-to-b from-green-600 to-neutral-800 text-white p-4 flex justify-between items-center font-mono border-b-2 border-black dark:border-white">
         <svg
           stroke="currentColor"
           fill="currentColor"

@@ -10,6 +10,8 @@ import Third from "./pages/Third";
 import PageNew from "./pages/PageNew";
 import First from "./pages/First";
 import Fourth from "./pages/Fourth";
+import Stacks from "./pages/Stacks";
+import Time from "./pages/Time";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path="/Third" element={<Third />} />
         <Route path="/Nav" element={<Nav />} />
         <Route path="/Fourth" element={<Fourth />} />
+        <Route path="/Stacks" element={<Stacks />} />
+        <Route path="/Time" element={<Time />} />
       </Routes>
     </>
   );

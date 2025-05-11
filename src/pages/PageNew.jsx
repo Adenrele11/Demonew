@@ -17,7 +17,7 @@ function PageNew() {
 
   return (
     <>
-      <div className="bg-black h-screen w-screen text-white ">
+      <div className="h-screen w-screen  text-white bg-gradient-to-b from-green-600 to-neutral-800">
         <Headerc />
         <div
           className="px-5 flex
@@ -25,8 +25,8 @@ function PageNew() {
           onPointerDown={handlePointerDown}
           onPointerUp={handlePointerUp}
         >
-          <div className="m-auto mt-5">
-            <h1 className="text-left font-bold text-3xl mt-3">
+          <div className="m-auto mt-5 ">
+            <h1 className="text-center font-bold text-3xl mt-3">
               Find global <br /> learning groups
             </h1>
             <img className="mt-7 " src="/src/assets/OBJECTS2.png" alt="" />

@@ -18,7 +18,7 @@ const Messages = () => {
   return (
     <>
       <div
-        className="bg-black h-screen w-screen text-white"
+        className=" h-screen w-screen text-white bg-gradient-to-b from-green-600 to-neutral-800"
         onPointerDown={handlePointerDown}
         onPointerUp={handlePointerUp}
       >
