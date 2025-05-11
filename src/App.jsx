@@ -12,6 +12,7 @@ import First from "./pages/First";
 import Fourth from "./pages/Fourth";
 import Stacks from "./pages/Stacks";
 import Time from "./pages/Time";
+import Chatbot from "./pages/Chatbot";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/Fourth" element={<Fourth />} />
         <Route path="/Stacks" element={<Stacks />} />
         <Route path="/Time" element={<Time />} />
+        <Route path="/Chatbot" element={<Chatbot />} />
       </Routes>
     </>
   );

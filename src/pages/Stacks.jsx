@@ -135,7 +135,7 @@ function Stacks() {
   return (
     <>
       <div className="pt-4 px-6">
-        <h1 className="text-center font-bold text-4xl text-neutral-100 font-mono">
+        <h1 className="text-center font-bold text-4xl text-black font-mono">
           ESSENTIALS
         </h1>
 
