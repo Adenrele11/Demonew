@@ -1,6 +1,7 @@
 import React from "react";
 import Headerc from "./Headerc";
 import { Link } from "react-router-dom";
+import objectImage from "../assets/OBJECTS4.png";
 
 function Fourth() {
   return (
@@ -15,7 +16,7 @@ function Fourth() {
             <h1 className="text-center font-bold text-3xl mt-3 text-white">
               Collaborate <br /> With Peers
             </h1>
-            <img className="mt-7" src="/src/assets/OBJECTS4.png" alt="" />
+            <img className="mt-7" src={objectImage} alt="Objects" />
           </div>
         </div>
         <div className="flex justify-end mt-12">

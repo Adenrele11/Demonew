@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Headerc from "./Headerc";
 import { useNavigate } from "react-router-dom";
+import objectImage from "../assets/OBJECTS.png";
 
 const Messages = () => {
   const navigate = useNavigate();
@@ -33,7 +34,7 @@ const Messages = () => {
               Engage with <br />
               interactive content
             </h1>
-            <img className="mt-5" src="/src/assets/OBJECTS.png" alt="" />
+            <img className="mt-7" src={objectImage} alt="Objects" />
           </div>
         </div>
       </div>

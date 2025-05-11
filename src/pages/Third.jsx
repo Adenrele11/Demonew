@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Headerc from "./Headerc";
 import { useNavigate } from "react-router-dom";
+import objectImage from "../assets/OBJECTS3.png";
 function Third() {
   const navigate = useNavigate();
   const startX = useRef(0);
@@ -31,7 +32,8 @@ function Third() {
             <h1 className=" font-bold text-3xl mt-6 text-center">
               Learn at <br /> Your own pace
             </h1>
-            <img className="mt-7" src="/src/assets/OBJECTS3.png" alt="" />
+            {/* <img className="mt-7" src="/src/assets/OBJECTS3.png" alt="" /> */}
+            <img className="mt-7" src={objectImage} alt="Objects" />
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import Headerc from "./Headerc";
 import { useNavigate } from "react-router-dom";
+import objectImage from "../assets/OBJECTS2.png";
 function PageNew() {
   const navigate = useNavigate();
   const startX = useRef(0);
@@ -29,7 +30,7 @@ function PageNew() {
             <h1 className="text-center font-bold text-3xl mt-3">
               Find global <br /> learning groups
             </h1>
-            <img className="mt-7 " src="/src/assets/OBJECTS2.png" alt="" />
+            <img className="mt-7" src={objectImage} alt="Objects" />
           </div>
         </div>
       </div>
